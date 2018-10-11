@@ -16,12 +16,21 @@ body {
 
 }
 
-.grid {
+h1 {
+    text-align: center;
+    margin: 100px 0 0 10px;
+}
+
+
+.grid1 {
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 75px 200px;
     grid-template-columns: 200px 200px 200px;
-    width: 
-    
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 10px 50px;
+
 }
 
 .grid1-col1 {
@@ -39,3 +48,57 @@ body {
     grid-column: 3;
 }
 
+.grid1-images {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.about_me {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.my_work {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.contact {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.grid1-buttons {
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 25px;
+    padding: 7px;
+    border: 2px solid black;
+}
+
+
+.txt-about_me {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.txt-my_work {
+    grid-row: 2;
+    grid-column: 2;
+}
+.txt-contact {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.email {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 100px 20px 20px 20px;
+    text-align: center;
+
+}
