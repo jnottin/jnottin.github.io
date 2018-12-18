@@ -1,0 +1,32 @@
+**** GET DEPLOYED APPS LOOKING CLEAN FOR NEW USERS
+**** FIX PROJECT 1 APP
+
+
+
+
+Problems:
+    PRIMARY:
+        -APP IMAGES -- way too big, takes too long to load
+
+
+    SECONDARY:
+
+
+    TERTIARY:
+
+
+
+
+
+Ideas:
+    PRIMARY:
+        - APP IMAGES HOVER BUTTON - hover over images and button appear to send to deployed app -- see http://mattfarley.ca/ for reference
+        - HEADER OR FOOTER - fixed at bottom or top with email, github, linkedin, etc info
+        - TECHNOLOGIES USED - place description of technologies used for your app below each picture
+        - ABOUT ME - about me section below my name with basic  bio, brand statement, 
+
+
+    SECONDARY:
+
+
+    TERTIARY:
