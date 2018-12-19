@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sam Nottingham</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+  <style type="text/css">
+    /* Necessary for full page carousel*/
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+
+    .carousel-inner {
+      height: 100%;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="full-page-gallery.html">
+        <img class="navbar-brand" src="./img/blocks.png" alt="Blocks Logo">
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#MyProjects">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/sam-nottingham-92871352/" class="side-nav-item"><img class="nav-icon linkedin-icon"
+                src="./img/linkedin.png" alt="linkedin icon"></a>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:nottinghamsamuel@gmail.com" class="side-nav-item"><img class="nav-icon email-icon" src="./img/email1.png"
+                alt="email icon"></a>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/jnottin" class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- data-ride="carousel" -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade">
+
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <!-- <img class="video-intro" src="./img/star.jpg" alt="Star Background"> -->
+          <video class="video-intro" autoplay loop muted>
+            <source src="./img/planet.mov" type="video/mp4" />
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content SLIDE 1-->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4 title">
+                <strong>Sam Nottingham</strong>
+              </h1>
+              <h2 class="mb-4 work-title">
+                <strong>Web Developer | Project Manager</strong>
+              </h2>
+
+              <p class="mb-4 d-none d-md-block slogan">
+                <strong>Dream. Learn. Build.</strong>
+
+              </p>
+              <!-- <p class="mb-4 d-none d-md-block">
+                <strong>A dreamer who loves to learn and build those dreams into real life.</strong>
+              </p> -->
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ABOUT SECTION -->
+  <hr class="my-5" id="AboutMe">
+  <section class="wow fadeIn">
+    <h3 class="h3 text-center mb-5 section-title">About Me</h3>
+
+    <div class="about-me-content grid2">
+      <div class="grid2 grid2-col1">
+        <h2> Who Am I?</h2>
+        <p class="grey-text">As a web developer with a background in project management and market research, I
+          bring
+          a strategic and creative approach to solving problems. Using my determination, confidence and a love
+          for learning along with creating an inclusive professional culture, I form clear, cohesive team goals
+          while identifying resources and actions that enable us to achieve diverse objectives.</p>
+      </div>
+      <div class="grid2 grid2-col2">
+        <h2> Familiar Technologies:</h2>
+        <ul class="grey-text">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+          <li>Django</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Handlebars</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <!-- <div class="about-me-content grid2">
+      <div class="row ">
+
+        <div class="col-lg-6 col-md-12 px-4 grid2 grid2-col1">
+
+          <div class="row">
+            <div class="col-1 mr-3">
+              <i class="fa fa-code fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h5 class="feature-title">Who Am I?</h5>
+              <p class="grey-text">As a web developer with a background in project management and market research, I
+                bring
+                a strategic and creative approach to solving problems. Using my determination, confidence and a love
+                for learning along with creating an inclusive professional culture, I form clear, cohesive team goals
+                while identifying resources and actions that enable us to achieve diverse objectives.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 fam-tech grid2 grid2-col2">
+          <div class="col-1 mr-3">
+            <i class="fa fa-code fa-2x indigo-text"></i>
+          </div>
+          <h5 class="feature-title ">Familiar Technologies: </h5>
+          <ul class="grey-text">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Django</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Handlebars</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div> -->
+  </section>
+
+  <hr class="my-5" id="MyProjects">
+
+  <!--Section: More-->
+  <section class="wow fadeIn">
+
+    <h2 class="my-5 h3 text-center section-title ">My Projects</h2>
+    <div class="grid1">
+      <h2 class="grid1-col1">Conjugate This</h2>
+      <img class="about_me grid1-images" src="https://i.imgur.com/jbUmKr0.png" alt="Conjugate This App Picture">
+      <button class="grid1-buttons txt-about_me"><a href="https://jnottin.github.io/italian_practice/">Play With The
+          App!</a></button>
+      <div class="grid1-row3-col1 grey-text projet-content">
+        <p>Conjugate This is a language learning web application that allows respondents to study a set list of
+          verbs and practice how to use those verbs in present, past and future tense as well practice those in
+          three different
+          languages, Spanish, Italian and Portuguese.</p>
+        <p>Technologies Used: </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <h2 class="grid1-col2">Trail To The Best</h2>
+      <img class="my_work grid1-images" src="https://i.imgur.com/fBVz3Pi.png" alt="Trail To The Best App Picture">
+      <button class="grid1-buttons txt-my_work"><a href="https://trailtothebest.herokuapp.com/">Play With The App!</a></button>
+      <div class="grid1-row3-col2 grey-text projet-content">
+        <p>Trail To The Best is a web application inspired because I love going to the movies, especially with
+          friends but it's very hard to agree on which movie to see. This app allows a group of friends to upload
+          movie trailers and then have any of their friends
+          watch and rate those trailers to figure out which trailer is the best fit for everyone. </p>
+        <p>Technologies Used: </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Handlebars</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+
+      <h2 class="grid1-col3">RoomKind</h2>
+      <img class="contact grid1-images" src="https://i.imgur.com/qj7KvCj.png" alt="RoomKind App Picture">
+      <button class="grid1-buttons txt-contact"><a href="http://project3-roomkind.surge.sh/">Play With The App!</a></button>
+      <div class="grid1-row3-col3 grey-text projet-content">
+        <p>RoomKind is a web application that allows everyday people and shelters to list
+          available
+          homes online for those in need, all for free! Shelters can list any additional unused beds they have at
+          their centers and homeowners can also list their property, like Airbnb!</p>
+        <p>Technologies Used: </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+  <!--Section: More-->
+
+  </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <!-- <a href="https://github.com/jnottin" class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a>
+      <a href="mailto:nottinghamsamuel@gmail.com" class="side-nav-item"><img class="nav-icon email-icon" src="./img/email1.png"
+          alt="email icon"></a>
+      <a href="https://www.linkedin.com/in/sam-nottingham-92871352/" class="side-nav-item"><img class="nav-icon" src="./img/linkedin.png"
+          alt="linkedin icon"></a> -->
+    </div>
+    <!-- Social icons -->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>

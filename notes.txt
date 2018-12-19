@@ -1,37 +1,7 @@
-**** GET DEPLOYED APPS LOOKING CLEAN FOR NEW USERS
-**** FIX PROJECT 1 APP
-
-
-
-
-Problems:
-    PRIMARY:
-        -APP IMAGES -- way too big, takes too long to load
-        -APP DESCRIPTION - make sure to be at the top, not some in center
-        -FIGURE OUT COLOR SCHEME
-        -ROUND CORNERS
-
-
-    SECONDARY:
-
-
-    TERTIARY:
-
-
-
-
-
-Ideas:
-    PRIMARY:
-        - NAV BAR - invisble bar but fixed - https://pierre.io/
-        - NAME ANIMATION - Have my name roll up like a drop up menu see - http://dejan.works/
-        - APP IMAGES HOVER BUTTON - hover over images and button appear to send to deployed app -- see http://mattfarley.ca/ for reference
-        - SIDE BUTTONS THAT EXPAND - fixed at bottom or top with email, github, linkedin, etc info - https://caferati.me/
-        - TECHNOLOGIES USED - place description of technologies used for your app below each picture
-        - ABOUT ME - about me section below my name with basic  bio, brand statement, 
-
-
-    SECONDARY:
-
-
-    TERTIARY:
+PROBLEMS:
+    - FIX CAROUSEL - image not great
+    - SCROLL FOR ABOUT ME / MY PROJECTS - to abrupt and not getting to the exact place
+    - CONTACT ME - should light up yellow around the social media icons
+    - PLAY THE APP BUTTONS - i want to have the hover effect and they should be centered
+    - APP LINK TO GITHUB
+    - BRAND STATEMENT - fix title and have it more tuned to learn, build etc

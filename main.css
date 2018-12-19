@@ -1,0 +1,184 @@
+body {
+    font-family: 'Noto Serif SC', serif;
+  }
+  
+.side-nav-item {
+margin: 0px 20px;
+} 
+
+.nav-icon {
+height: 50px;
+width: 50px;
+}
+
+.navbar-brand {
+    height: 44px;
+    width: 44px;
+}
+
+.email-icon {
+    height: 44px;
+    width: 44px;
+}
+
+h1 {
+text-align: center;
+}
+
+.title {
+font-size: 100px;
+}
+
+.work-title {
+    font-size: 40px;
+
+}
+
+.slogan {
+    font-size: 30px;
+    }
+
+.section-title {
+font-size: 45px;
+}
+
+.bio-section {
+text-align: center;
+}
+
+.about-me-content {
+    /* text-align: center; */
+}
+
+.fam-tech {
+    display: inline;
+}
+
+
+h2  {
+text-align: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    justify-items: center;
+    align-items: top;
+    grid-gap: 10px 50px;
+    margin: 20px auto;
+    }
+.grid2-col1 {
+    display: block;
+    grid-row: 1;
+    grid-column: 1;
+}
+.grid2-col2 {
+    display: block;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.grid1 {
+display: grid;
+grid-template-rows: auto 170px 230px auto;
+grid-template-columns: 400px 400px 400px;
+justify-content: center;
+justify-items: center;
+align-items: top;
+grid-gap: 10px 50px;
+margin: 10px;
+}
+
+.column1 {
+}
+
+.grid1-col1 {
+grid-row: 1;
+grid-column: 1;
+}
+
+.grid1-col2 {
+grid-row: 1;
+grid-column: 2;
+}
+
+.grid1-col3 {
+grid-row: 1;
+grid-column: 3;
+}
+
+.grid1-images {
+width: 400px;
+height: 400px;
+border-radius: 50px;
+border: 2px solid grey;
+}
+
+/* APP IMAGES PLACEMENT*/
+.about_me {
+grid-row: 2 / 3;
+grid-column: 1;
+}
+
+.my_work {
+grid-row: 2 / 3;
+grid-column: 2;
+}
+
+.contact {
+grid-row: 2 / 3;
+grid-column: 3;
+}
+
+.grid1-buttons {
+color: grey;
+font-size: 20px;
+font-weight: bold;
+height: 50px;
+
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 25px;
+padding: 7px;
+border: 2px solid black;
+}
+
+/* PLAY APP BUTTONS*/
+.txt-about_me {
+grid-row: 3;
+grid-column: 1;
+}
+
+.txt-my_work {
+grid-row: 3;
+grid-column: 2;
+}
+.txt-contact {
+grid-row: 3;
+grid-column: 3;
+}
+
+.grid1-row3-col1 {
+grid-row: 4;
+grid-column: 1;
+align-items: top;
+}
+
+.grid1-row3-col2 {
+grid-row: 4;
+grid-column: 2;
+}
+.grid1-row3-col3 {
+grid-row: 4;
+grid-column: 3;
+}
+
+.project-content {
+    text-align: top;
+}
+
+a {
+text-decoration: none;
+color: rgba(20, 20, 20, 1);
+}
