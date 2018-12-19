@@ -1,0 +1,150 @@
+body {
+  background-color: rgb(0, 0, 102);
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(235, 234, 234, .26);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: grey;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.title {
+  font-size: 75px;
+}
+
+
+.side-nav {
+  display: block;
+  background-color: #8A8C8B;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 violet;
+  text-align: center;
+}
+
+.side-nav-item {
+  text-decoration: none;
+  font-weight: bold;
+  color: antiquewhite;
+  margin: 10px 100px;
+}
+.nav-icon {
+  height: 50px;
+  width: 50px;
+}
+
+h1 {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 violet;
+}
+.bio-section {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 violet;
+}
+
+
+
+
+
+/* star stuff */
+/* .geminid {
+  position: absolute;
+  top: calc(var(--y) * 1vh);
+  left: calc(var(--x) * 1vw);
+  -webkit-animation: shoot calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
+          animation: shoot calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
+}
+.geminid__trail {
+  height: 2px;
+  width: 25px;
+  position: absolute;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), rgba(255,255,255,0.85));
+  border-radius: 100% 25% 25% 100%;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-filter: drop-shadow(0 0 5px #fafafa);
+          filter: drop-shadow(0 0 5px #fafafa);
+  -webkit-animation: spark calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
+          animation: spark calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
+}
+@media (min-width: 768px) {
+  .geminid__trail {
+    height: 5px;
+    width: 50px;
+  }
+}
+.star {
+  border-radius: 100%;
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: calc(var(--y) * 1vh);
+  left: calc(var(--x) * 1vw);
+  background: #fafafa;
+  opacity: var(--opacity);
+  -webkit-transform: scale(var(--scale));
+          transform: scale(var(--scale));
+}
+
+@-webkit-keyframes shoot {
+  0% {
+    -webkit-transform: rotate(calc(var(--angle) * 1deg));
+            transform: rotate(calc(var(--angle) * 1deg));
+  }
+  5%, 100% {
+    -webkit-transform: rotate(calc(var(--angle) * 1deg)) translate(calc(var(--travel) * 1vw), 0);
+            transform: rotate(calc(var(--angle) * 1deg)) translate(calc(var(--travel) * 1vw), 0);
+  }
+}
+@keyframes shoot {
+  0% {
+    -webkit-transform: rotate(calc(var(--angle) * 1deg));
+            transform: rotate(calc(var(--angle) * 1deg));
+  }
+  5%, 100% {
+    -webkit-transform: rotate(calc(var(--angle) * 1deg)) translate(calc(var(--travel) * 1vw), 0);
+            transform: rotate(calc(var(--angle) * 1deg)) translate(calc(var(--travel) * 1vw), 0);
+  }
+}
+@-webkit-keyframes spark {
+  0%, 5%, 100% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  1%, 4% {
+    -webkit-transform: scaleX(var(--trail));
+            transform: scaleX(var(--trail));
+  }
+}
+@keyframes spark {
+  0%, 5%, 100% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  1%, 4% {
+    -webkit-transform: scaleX(var(--trail));
+            transform: scaleX(var(--trail));
+  }
+}
+ */
