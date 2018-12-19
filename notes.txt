@@ -7,6 +7,9 @@
 Problems:
     PRIMARY:
         -APP IMAGES -- way too big, takes too long to load
+        -APP DESCRIPTION - make sure to be at the top, not some in center
+        -FIGURE OUT COLOR SCHEME
+        -ROUND CORNERS
 
 
     SECONDARY:
