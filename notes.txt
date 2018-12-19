@@ -23,8 +23,10 @@ Problems:
 
 Ideas:
     PRIMARY:
+        - NAV BAR - invisble bar but fixed - https://pierre.io/
+        - NAME ANIMATION - Have my name roll up like a drop up menu see - http://dejan.works/
         - APP IMAGES HOVER BUTTON - hover over images and button appear to send to deployed app -- see http://mattfarley.ca/ for reference
-        - HEADER OR FOOTER - fixed at bottom or top with email, github, linkedin, etc info
+        - SIDE BUTTONS THAT EXPAND - fixed at bottom or top with email, github, linkedin, etc info - https://caferati.me/
         - TECHNOLOGIES USED - place description of technologies used for your app below each picture
         - ABOUT ME - about me section below my name with basic  bio, brand statement, 
 
