@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Noto Serif SC', serif;
   }
@@ -39,10 +43,12 @@ font-size: 100px;
 
 .section-title {
 font-size: 45px;
-margin-top: 40px;
 }
 .about-me-title {
-    margin-top: 60px
+    margin-top: 70px;
+}
+.my-projects {
+    margin-top: 100px;
 }
 
 .bio-section {
@@ -185,3 +191,14 @@ a {
 text-decoration: none;
 color: rgba(20, 20, 20, 1);
 }
+
+.light-up {
+    /* HIGHLIGHTER COLOR I WANT */
+    /* box-shadow: 14px 32px 172px 28px rgba(247,255,0,1); */
+    /* box-shadow: 5px 10px 20px red inset; */
+}
+
+/* footer {
+    background-color: #FFFFFF;
+    height: 40px;
+} */

@@ -42,9 +42,11 @@
       }
     }
   </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./img/blocks.png" />
 </head>
 
 <body>
+  <div id="SayHello"></div>
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
@@ -73,24 +75,25 @@
             <a class="nav-link" href="#MyProjects">My Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Say Hello!</a>
+            <a class="nav-link sayHelloBtn" href="#SayHello">Say Hello!</a>
           </li>
         </ul>
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="https://www.linkedin.com/in/sam-nottingham-92871352/" class="side-nav-item"><img class="nav-icon linkedin-icon"
+            <a href="https://www.linkedin.com/in/sam-nottingham-92871352/" class="side-nav-item"><img class="nav-icon linkedin-icon light-up"
                 src="./img/linkedin.png" alt="linkedin icon"></a>
             </a>
           </li>
           <li class="nav-item">
-            <a href="mailto:nottinghamsamuel@gmail.com" class="side-nav-item"><img class="nav-icon email-icon" src="./img/email1.png"
-                alt="email icon"></a>
+            <a href="mailto:nottinghamsamuel@gmail.com" class="side-nav-item"><img class="nav-icon email-icon light-up"
+                src="./img/email1.png" alt="email icon"></a>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://github.com/jnottin" class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a>
+            <a href="https://github.com/jnottin" class="side-nav-item"><img class="nav-icon light-up" src="./img/github.png"
+                alt="github icon"></a>
             </a>
           </li>
         </ul>
@@ -179,12 +182,13 @@
     </div>
   </section>
 
-  <hr class="my-5" id="MyProjects">
+  <div id="MyProjects"></div>
+  <hr class="my-5">
 
   <!--Section: More-->
   <section class="wow fadeIn">
 
-    <h2 class="my-5 h3 text-center section-title ">My Projects</h2>
+    <h2 class="my-5 h3 text-center section-title my-projects">My Projects</h2>
     <div class="grid1">
       <h2 class="grid1-col1">Conjugate This</h2>
       <img class="about_me grid1-images" src="https://i.imgur.com/jbUmKr0.png" alt="Conjugate This App Picture">
@@ -275,6 +279,7 @@
     // Animations initialization
     new WOW().init();
   </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
