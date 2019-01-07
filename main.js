@@ -12,7 +12,15 @@ sayHelloBtn.addEventListener("click", lightUpContactInfo);
 function lightUpContactInfo() {
     console.log("function run")
     navContactIcons.forEach(navIcon => {
+        if (navIcon) {
+            navIcon.style.boxShadow = "15px 10px 200px red inset";
+            navIcon.style.borderRadius = "15px";
+        } else {
+            navIcon.style.boxShadow = "none";
+        }
         // navIcon.style.boxShadow = "5px 10px 20px red inset";
+        // navIcon.style.boxShadow = "0 0 200px #61dafb";
+
 
     });
 }
