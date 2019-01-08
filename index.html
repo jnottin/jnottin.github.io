@@ -75,8 +75,12 @@
             <a class="nav-link" href="#MyProjects">My Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link sayHelloBtn" href="#SayHello">Say Hello!</a>
+            <a class="nav-link" href="#Resume">Resume</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link sayHelloBtn" href="#SayHello">Say Hello!</a>
+          </li> -->
+
         </ul>
 
         <!-- Right -->
@@ -153,15 +157,15 @@
   <section class="wow fadeIn">
     <h3 class="h3 text-center mb-5 section-title about-me-title">About Me</h3>
 
-    <div class="about-me-content grid2">
-      <div class="grid2 grid2-col1">
+    <div class="about-me-content about-me-grid">
+      <div class="about-me-grid about-me-col">
         <h2> Who Am I?</h2>
         <p class="grey-text">As a web developer with a background in project management and data analysis, I bring a
           methodical but creative approach to solving problems. I have a passion for dreaming and learning about new
           technologies that can be built to impact the world. Whether as a team member or on my own, I thrive on
           taking those dreams and bringing them to life.</p>
       </div>
-      <div class="grid2 grid2-col2">
+      <div class="about-me-grid me-tech-col">
         <h2> Familiar Technologies:</h2>
         <ul class="grey-text">
           <li>HTML</li>
@@ -189,36 +193,67 @@
 
     <h2 class="my-5 h3 text-center section-title my-projects">My Projects</h2>
     <div class="grid1">
-      <h2 class="grid1-col1">Conjugate This</h2>
-      <img class="about_me grid1-images" src="https://i.imgur.com/jbUmKr0.png" alt="Conjugate This App Picture">
-      <button class="grid1-buttons txt-about_me"><a href="https://jnottin.github.io/italian_practice/">Play With The
+      <h2 class="mediShare-title">Medi-Share</h2>
+      <img class="mediShare-img grid1-images" src="https://i.imgur.com/3zrow9N.png" alt="Medi-Share App Picture">
+      <button class="grid1-buttons playApp-mediShare"><a href="http://medi-share.surge.sh/">Play
+          With
+          The
           App!</a></button>
-      <!-- <a class="txt-about_me conju-github" href="https://github.com/jnottin/italian_practice" class="side-nav-item"><img
-          class="nav-icon light-up" src="./img/github.png" alt="github icon"></a> -->
-      <div class="grid1-row3-col1 grey-text projet-content">
+      <div class="mediShare-project-Info grey-text projet-content">
+        <p>Medi-Share is a web application that shows average prices of procedures for uninsured patients at hospitals
+          near them. It is extremely hard to know the cost of a procedure before having it, through Medi-Share I wanted
+          to bring more transparency to the medical community.</p>
+        <p>Technologies Used: </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JSX</li>
+          <li>React</li>
+          <li>React Google Maps</li>
+          <li>React Google Autocomplete</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+        </ul>
+        <label for="see-frontend-on-github">See Frontend On Github:<a href="https://github.com/jnottin/project4_medicalBills_frontend"
+            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+        <br>
+        <label for="see-backend-on-github">See Backend On Github:<a href="https://github.com/jnottin/project4_medicalBills_backend"
+            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+      </div>
+
+      <h2 class="conjugate-title">Conjugate This</h2>
+      <img class="conjugate-this-img grid1-images" src="https://i.imgur.com/jbUmKr0.png" alt="Conjugate This App Picture">
+      <button class="grid1-buttons playApp-conjugate-this "><a href="https://jnottin.github.io/italian_practice/">Play
+          With
+          The
+          App!</a></button>
+      <div class="conjugateThis-project-Info grey-text projet-content">
         <p>Conjugate This is a language learning web application that allows respondents to study a set list of
-          verbs and practice how to use those verbs in present, past and future tense as well practice those in
+          verbs. They can practice how to use those verbs in present, past and future tense as well in
           three different
-          languages, Spanish, Italian and Portuguese.</p>
+          languages: Spanish, Italian and Portuguese.</p>
         <p>Technologies Used: </p>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
         </ul>
+        <label for="see-it-on-github">See It On Github:<a href="https://github.com/jnottin/italian_practice" class="side-nav-item"><img
+              class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
       </div>
 
-      <h2 class="grid1-col2">Trail To The Best</h2>
-      <!-- <a href="https://github.com/jnottin/project2_personal_medical_bills" class="side-nav-item"><img class="nav-icon light-up"
-          src="./img/github.png" alt="github icon"></a> -->
+      <h2 class="trail-to-best-title">Trail To The Best</h2>
       <img src="" alt="">
-      <img class="my_work grid1-images" src="https://i.imgur.com/fBVz3Pi.png" alt="Trail To The Best App Picture">
-      <button class="grid1-buttons txt-my_work"><a href="https://trailtothebest.herokuapp.com/">Play With The App!</a></button>
-      <div class="grid1-row3-col2 grey-text projet-content">
+      <img class="trail-to-the-best-img grid1-images" src="https://i.imgur.com/fBVz3Pi.png" alt="Trail To The Best App Picture">
+      <button class="grid1-buttons playApp-trail-to-the-best"><a href="https://trailtothebest.herokuapp.com/">Play With
+          The
+          App!</a></button>
+      <div class="trailToTheBest-project-Info grey-text projet-content">
         <p>Trail To The Best is a web application inspired because I love going to the movies, especially with
-          friends but it's very hard to agree on which movie to see. This app allows a group of friends to upload
+          friends. It's very callenging though, to agree on which movie to see. This app allows a group of friends to
+          upload
           movie trailers and then have any of their friends
-          watch and rate those trailers to figure out which trailer is the best fit for everyone. </p>
+          watch and rate those trailers to figure out which is the best fit for everyone. </p>
         <p>Technologies Used: </p>
         <ul>
           <li>HTML</li>
@@ -229,50 +264,63 @@
           <li>Express</li>
           <li>MongoDB</li>
         </ul>
+        <label for="see-it-on-github">See It On Github:<a href="https://github.com/jnottin/project2_personal_medical_bills"
+            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
       </div>
 
-      <h2 class="grid1-col3">RoomKind</h2>
-      <!-- <a href="https://github.com/jnottin/deployment_project3_frontend" class="side-nav-item"><img class="nav-icon light-up"
-          src="./img/github.png" alt="github icon"></a>
-      <a href="https://github.com/jnottin/deployment_project3_backend" class="side-nav-item"><img class="nav-icon light-up"
-          src="./img/github.png" alt="github icon"></a> -->
-      <img class="contact grid1-images" src="https://i.imgur.com/qj7KvCj.png" alt="RoomKind App Picture">
-      <button class="grid1-buttons txt-contact"><a href="http://project3-roomkind.surge.sh/">Play With The App!</a></button>
-      <div class="grid1-row3-col3 grey-text projet-content">
-        <p>RoomKind is a web application that allows everyday people and shelters to list
+      <h2 class="roomkind-title">RoomKind</h2>
+      <img class="roomKind-img grid1-images" src="https://i.imgur.com/qj7KvCj.png" alt="RoomKind App Picture">
+      <button class="grid1-buttons playApp-roomKind"><a href="http://project3-roomkind.surge.sh/">Play With The App!</a></button>
+      <div class="roomKind-project-Info grey-text projet-content">
+        <p>RoomKind is a team developed web application that allows everyday people and shelters to list
           available
-          homes online for those in need, all for free! Shelters can list any additional unused beds they have at
+          beds for those in need, all for free! Shelters can list any additional unused beds they have at
           their centers and homeowners can also list their property, like Airbnb!</p>
         <p>Technologies Used: </p>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
-          <li>JavaScript</li>
+          <li>JSX</li>
           <li>React</li>
           <li>Express</li>
           <li>MongoDB</li>
         </ul>
+        <label for="see-frontend-on-github">See Frontend On Github:<a href="https://github.com/jnottin/deployment_project3_frontend"
+            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+        <br>
+        <label for="see-backend-on-github">See Backend On Github:<a href="https://github.com/jnottin/deployment_project3_backend"
+            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+
       </div>
 
     </div>
-
+    <div id="Resume"></div>
   </section>
-  <!--Section: More-->
 
+  <hr class="my-5">
+
+  <section class="wow fadeIn">
+    <h3 class="h3 text-center mb-5 section-title">Resume</h3>
+    <div class="resume-embed">
+      <img class="resume-img-png" src="./img/resume.png" alt="resume">
+      <!-- <embed class="resume-img-pdf" src="./img/SamNottingham_wd.pdf" type="application/pdf" /> -->
+    </div>
+  </section>
   </div>
   </main>
-  <!--Main layout-->
 
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
     <hr class="my-4">
-
-    <!-- Social icons -->
     <div class="pb-4">
 
   </footer>
-  <!--/.Footer-->
+
+  <!-- <footer>
+    <h1>stuff</h1>
+
+  </footer> -->
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
