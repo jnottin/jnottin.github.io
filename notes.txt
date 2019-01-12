@@ -1,7 +1,6 @@
 PROBLEMS:
-    - FIX CAROUSEL - image not great
-    - SCROLL FOR ABOUT ME / MY PROJECTS - to abrupt and not getting to the exact place
-    - CONTACT ME - should light up yellow around the social media icons
+    - Delete HTML/CSS/Javascript from all projects / your techs
+    - RESUME - make title link to your resume to be printed? or pic be link?
+    - APP LINK TO GITHUB - make github image with Backend or Frontend pasted over, do in mac photoshop. Put those below the titles of the projects
+    - ACORDIANS - for app info and one for app technologies, look at bootstrap
     - PLAY THE APP BUTTONS - i want to have the hover effect and they should be centered
-    - APP LINK TO GITHUB
-    - BRAND STATEMENT - fix title and have it more tuned to learn, build etc
