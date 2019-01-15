@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Sam Nottingham</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
@@ -13,9 +14,9 @@
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
   <style type="text/css">
     /* Necessary for full page carousel*/
     html,
@@ -189,29 +190,38 @@
 
     <h2 class="my-5 h3 text-center section-title my-projects">My Projects</h2>
     <div class="grid1">
-      <h2 class="mediShare-title">Medi-Share</h2>
-      <img class="mediShare-img grid1-images" src="https://i.imgur.com/3zrow9N.png" alt="Medi-Share App Picture">
+      <div class="mediShare-title">
+        <h2>Medi-Share</h2>
+      </div>
+      <img class="mediShare-img grid1-images" src="https://i.imgur.com/cPIRAEW.png" alt="Medi-Share App Picture" />
       <button class="grid1-buttons playApp-mediShare"><a href="http://medi-share.surge.sh/">Play
           With
           The
           App!</a></button>
       <div class="mediShare-project-Info grey-text projet-content">
-        <p>Medi-Share is a web application that shows average prices of procedures for uninsured patients at hospitals
-          near them. It is extremely hard to know the cost of a procedure before having it, through Medi-Share I wanted
-          to bring more transparency to the medical community.</p>
-        <p>Technologies Used: </p>
-        <ul>
-          <li>React</li>
-          <li>React Google Maps</li>
-          <li>React Google Autocomplete</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-        </ul>
-        <label for="see-frontend-on-github">See Frontend On Github:<a href="https://github.com/jnottin/project4_medicalBills_frontend"
-            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
-        <br>
-        <label for="see-backend-on-github">See Backend On Github:<a href="https://github.com/jnottin/project4_medicalBills_backend"
-            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+        <button onclick="accordionOpenClose('medi-share-descr')" class="w3-button w3-block w3-black w3-left-align accordion-style">Project
+          Description</button>
+        <div id="medi-share-descr" class="w3-hide w3-animate-zoom accordion">
+          <p>Medi-Share is a web application that shows average prices of procedures for uninsured patients at
+            hospitals
+            near them. It is extremely hard to know the cost of a procedure before having it, through Medi-Share I
+            wanted
+            to bring more transparency to the medical community.</p>
+          <p>Technologies Used: </p>
+          <ul>
+            <li>React</li>
+            <li>React Google Maps</li>
+            <li>React Google Autocomplete</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+          </ul>
+          <!-- <div class="project_github_buttons"> -->
+          <a href="https://github.com/jnottin/project4_medicalBills_frontend" class="side-nav-item"><img class="project-github-icon"
+              src="./img/github_frontend.png" alt="github icon"></a>
+          <a href="https://github.com/jnottin/project4_medicalBills_backend" class="side-nav-item"><img class="project-github-icon"
+              src="./img/github_backend.png" alt="github icon"></a>
+          <!-- </div> -->
+        </div>
       </div>
 
       <h2 class="conjugate-title">Conjugate This</h2>
@@ -221,18 +231,23 @@
           The
           App!</a></button>
       <div class="conjugateThis-project-Info grey-text projet-content">
-        <p>Conjugate This is a language learning web application that allows respondents to study a set list of
-          verbs. They can practice how to use those verbs in present, past and future tense as well as in
-          three different
-          languages: Spanish, Italian and Portuguese.</p>
-        <p>Technologies Used: </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <label for="see-it-on-github">See It On Github:<a href="https://github.com/jnottin/italian_practice" class="side-nav-item"><img
-              class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+
+        <button onclick="accordionOpenClose('conjugate-this-descr')" class="w3-button w3-block w3-black w3-left-align accordion-style">Project
+          Description</button>
+        <div id="conjugate-this-descr" class="w3-hide w3-animate-zoom accordion">
+          <p>Conjugate This is a language learning web application that allows respondents to study a set list of
+            verbs. They can practice how to use those verbs in present, past and future tense as well as in
+            three different
+            languages: Spanish, Italian and Portuguese.</p>
+          <p>Technologies Used: </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <a href="https://github.com/jnottin/italian_practice" class="side-nav-item"><img class="project-github-icon"
+              src="./img/github.png" alt="github icon"></a>
+        </div>
       </div>
 
       <h2 class="trail-to-best-title">Trail To The Best</h2>
@@ -242,41 +257,48 @@
           The
           App!</a></button>
       <div class="trailToTheBest-project-Info grey-text projet-content">
-        <p>Trail To The Best is a web application inspired because I love going to the movies, especially with
-          friends. It's very callenging though, to agree on which movie to see. This app allows a group of friends to
-          upload
-          movie trailers and then have any of their friends
-          watch and rate those trailers to figure out which is the best fit for everyone. </p>
-        <p>Technologies Used: </p>
-        <ul>
-          <li>Bootstrap</li>
-          <li>Handlebars</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-        </ul>
-        <label for="see-it-on-github">See It On Github:<a href="https://github.com/jnottin/project2_personal_medical_bills"
-            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+        <button onclick="accordionOpenClose('trail-to-best-descr')" class="w3-button w3-block w3-black w3-left-align accordion-style">Project
+          Description</button>
+        <div id="trail-to-best-descr" class="w3-hide w3-animate-zoom accordion">
+          <p>Trail To The Best is a web application inspired because I love going to the movies, especially with
+            friends. It's very callenging though, to agree on which movie to see. This app allows a group of friends to
+            upload
+            movie trailers and then have any of their friends
+            watch and rate those trailers to figure out which is the best fit for everyone. </p>
+          <p>Technologies Used: </p>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Handlebars</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+          </ul>
+          <a href="https://github.com/jnottin/project2_personal_medical_bills" class="side-nav-item"><img class="project-github-icon"
+              src="./img/github.png" alt="github icon"></a>
+        </div>
       </div>
 
       <h2 class="roomkind-title">RoomKind</h2>
       <img class="roomKind-img grid1-images" src="https://i.imgur.com/qj7KvCj.png" alt="RoomKind App Picture">
       <button class="grid1-buttons playApp-roomKind"><a href="http://project3-roomkind.surge.sh/">Play With The App!</a></button>
       <div class="roomKind-project-Info grey-text projet-content">
-        <p>RoomKind is a team developed web application that allows everyday people and shelters to list
-          available
-          beds for those in need, all for free! Shelters can list any additional unused beds they have at
-          their centers and homeowners can also list their property, like Airbnb!</p>
-        <p>Technologies Used: </p>
-        <ul>
-          <li>React</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-        </ul>
-        <label for="see-frontend-on-github">See Frontend On Github:<a href="https://github.com/jnottin/deployment_project3_frontend"
-            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
-        <br>
-        <label for="see-backend-on-github">See Backend On Github:<a href="https://github.com/jnottin/deployment_project3_backend"
-            class="side-nav-item"><img class="nav-icon" src="./img/github.png" alt="github icon"></a></label>
+        <button onclick="accordionOpenClose('roomkind-descr')" class="w3-button w3-block w3-black w3-left-align accordion-style">Project
+          Description</button>
+        <div id="roomkind-descr" class="w3-hide w3-animate-zoom accordion">
+          <p>RoomKind is a team developed web application that allows everyday people and shelters to list
+            available
+            beds for those in need, all for free! Shelters can list any additional unused beds they have at
+            their centers and homeowners can also list their property, like Airbnb!</p>
+          <p>Technologies Used: </p>
+          <ul>
+            <li>React</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+          </ul>
+          <a href="https://github.com/jnottin/deployment_project3_frontend" class="side-nav-item"><img class="project-github-icon"
+              src="./img/github_frontend.png" alt="github icon"></a>
+          <a href="https://github.com/jnottin/deployment_project3_backend" class="side-nav-item"><img class="project-github-icon"
+              src="./img/github_backend.png" alt="github icon"></a>
+        </div>
 
       </div>
 
