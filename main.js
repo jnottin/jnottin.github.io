@@ -27,11 +27,22 @@
 //     });
 // }
 
-function accordionOpenClose(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
+const navContactIcons = document.querySelectorAll(".light-up");
+
+
+//SELECTING THE BUTTON
+const sayHelloBtn = document.querySelector(".sayHelloBtn");
+
+//ADDING EVENT LISTENER TO BUTTON
+sayHelloBtn.addEventListener("click", lightUpContactInfo);
+
+
+
+// function accordionOpenClose(id) {
+//     var x = document.getElementById(id);
+//     if (x.className.indexOf("w3-show") == -1) {
+//         x.className += " w3-show";
+//     } else {
+//         x.className = x.className.replace(" w3-show", "");
+//     }
+// }

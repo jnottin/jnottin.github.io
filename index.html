@@ -191,7 +191,7 @@
     <h2 class="my-5 h3 text-center section-title my-projects">My Projects</h2>
     <div class="grid1">
       <div class="mediShare-title">
-        <h2>Final Project: Medi-Share</h2>
+        <h2>Medi-Share</h2>
       </div>
       <img class="mediShare-img grid1-images" src="https://i.imgur.com/cPIRAEW.png" alt="Medi-Share App Picture" />
       <button class="grid1-buttons playApp-mediShare"><a href="http://medi-share.surge.sh/">Play
@@ -199,7 +199,7 @@
           The
           App!</a></button>
       <div class="mediShare-project-Info grey-text projet-content">
-        <button onclick="accordionOpenClose('medi-share-descr')" class="w3-button w3-block w3-black w3-left-align accordion-style">Project
+        <button id="accordionOpenClose" onclick="accordionOpenClose('medi-share-descr')" class="w3-button w3-block w3-black w3-left-align accordion-style">Project
           Description</button>
         <div id="medi-share-descr" class="w3-hide w3-animate-zoom accordion">
           <p>Medi-Share is a web application that shows average prices of procedures for uninsured patients at
@@ -345,7 +345,15 @@
     // Animations initialization
     new WOW().init();
   </script>
-  <script src="main.js"></script>
+  <!-- <script src="main.js"></script> -->
+  <script>function accordionOpenClose(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }</script>
 </body>
 
 </html>
