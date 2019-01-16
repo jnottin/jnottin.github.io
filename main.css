@@ -272,4 +272,8 @@ color: rgba(20, 20, 20, 1);
 body {
     font-family: 'Noto Serif SC', serif;
   }
+
+.black-text {
+    color: black;
+}
   
