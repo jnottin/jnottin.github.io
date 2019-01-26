@@ -210,6 +210,7 @@ text-align: center;
     align-items: center; */
     text-align: center;
     margin: 0 auto;
+    margin-top: 2%; 
 }
 
 .hover-text-items {
@@ -276,7 +277,7 @@ body {
     .descrip-tech {
         font-size: 2.8vw; 
     }
-    .div-proect-title {
+    .div-project-title {
         text-align: center;
         font-size: 4.7vw; 
         color: white;
