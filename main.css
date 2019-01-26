@@ -6,6 +6,10 @@ html {
 margin: 0px 20px;
 } 
 
+.video-intro {
+    width: 100%;
+}
+
 .nav-icon {
 height: 50px;
 width: 50px;
@@ -65,7 +69,7 @@ text-align: center;
 .about-me-grid {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 30% 30%;
     justify-content: center;
     justify-items: center;
     align-items: top;
@@ -243,20 +247,6 @@ color: rgba(20, 20, 20, 1);
 
 }
 
-.light-up {
-    box-shadow: 5px 10px #888888;
-    /* HIGHLIGHTER COLOR I WANT */
-    /* box-shadow: 14px 32px 172px 28px rgba(247,255,0,1); */
-    /* box-shadow: 5px 10px 20px red inset; */
-}
-
- /* .footer-mine {
-    background-color: #1C2231;
-    height: 60px; 
-    position: absolute;
-    bottom:0;
-    width:100%;
-} */
 
 .project_github_buttons {
     margin: 0 auto;
@@ -276,4 +266,65 @@ body {
 .black-text {
     color: black;
 }
-  
+
+.background-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* TABLETS */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display:  none;
+    }
+    .about-me-grid { 
+    grid-template-columns: 40% 40%;
+    }
+    .grid1 {
+        /* display: none; */
+        display: grid;
+        grid-template-rows: auto 140px 180px auto;
+        /* grid-template-columns: 400px 400px 400px; */
+        /* grid-template-columns: auto auto auto auto;  */
+        grid-template-columns: 22% 22% 22% 22%; 
+        justify-content: center;
+        justify-items: center;
+        /* align-items: top; */
+        grid-gap: 10px 3%;
+        margin: 10px;
+        margin-top: 100px;
+
+        }
+
+} 
+
+/* CELL PHONES */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display:  none;
+    }
+    
+    .about-me-grid { 
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    }
+    .about-me-col {
+        display: block;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .me-tech-col {
+        display: block;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .grid1 {
+        display: none;
+
+        }
+
+
+} 
