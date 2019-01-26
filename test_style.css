@@ -34,8 +34,13 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .9s ease;
-    background-color:rgba(153, 221, 255, .9);
+    transition: .8s ease;
+    background-image: linear-gradient(to right bottom, rgba(41, 51, 70, 1), rgba(153, 31, 0, .3));
+    background-color:rgba(41, 51, 70, 1);
+    /* zoom */
+    /* -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); */
   }
 
 /* .project-imgs:hover {
@@ -51,20 +56,24 @@ body {
 .project-container:hover .overlay{
     opacity: 1;
     border: 2px solid black;
+    /* zoom */
+    /* -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); */
 }
 
 
 .project-hover-content {
     color: white;
     font-size: 20px;
-    position: absolute;
-    top: 32%;
+    top: 50%;
     left: 50%;
     width: 100%;
+    height: 100%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    position: absolute;
 }
 
 .play-button-link {
@@ -83,13 +92,56 @@ body {
 }
 
 .project-github-buttons {
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
+    marxgin-left: 5%;
+}
+
+.project-github-btn-one {
+    margin-right: 5%;
+
 }
 
 .project-buttons {
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
+    text-align: center;
+    margin: 0 auto;
+}
 
+.hover-text-items {
+    margin-bottom: 2%; 
+}
+
+
+.hover-text {
+    padding: 10px;
+    text-align: left; 
+}
+
+.div-proect-title {
+    text-align: center;
+    font-size: 3vw; 
+    color: white;
+    width: auto;
+}
+.div-proj-title-link {
+    text-decoration: none;
+}
+
+.div-proect-title:hover {
+    text-shadow: 4px 2px 2px #888888;
+    transform: scale(1.5);
+    transition: .4s ease;
+
+}
+
+.project-github-buttons:hover  {
+    transform: scale(1.3);
+    transition: .4s ease;
+}
+
+.descrip-tech {
+    font-size: 2vw; 
 }

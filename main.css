@@ -32,6 +32,7 @@ text-align: center;
 
 .title {
 font-size: 100px;
+margin-bottom: 30px;
 }
 
 .work-title {
@@ -238,15 +239,13 @@ color: rgba(20, 20, 20, 1);
 }
 
 /* PDF */
-/* .resume-img-pdf {
+.resume-img-pdf {
     height: 1100px;
     width: 80%;
-    margin: 20px;
-} */
-.resume-embed {
-
+    margin-left: 10%;
+    /* margin: 0 auto;
+    text-align: center; */
 }
-
 
 .project_github_buttons {
     margin: 0 auto;
@@ -295,6 +294,10 @@ body {
         margin-top: 100px;
 
         }
+    .resume-img-pdf {
+        width: 94%;
+        margin-left: 4%;
+    }
 
 } 
 
@@ -321,10 +324,31 @@ body {
         grid-column: 1;
     }
 
+    .titles-slogan-text {
+        /* position: absolute;
+        left: -7.5%;
+        top: 60px; */
+    }
+
+    .title {
+        font-size: 15vw;
+    }
+        
+    .work-title {
+        font-size: 7vw;
+    }
+
+    .slogan {
+        font-size: 5vw;
+        }
+    
+
     .grid1 {
         display: none;
 
         }
 
-
+    .resume-img-pdf {
+        display: none;
+    }
 } 
