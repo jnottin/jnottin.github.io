@@ -1,6 +1,5 @@
 PROBLEMS:
-    - Delete HTML/CSS/Javascript from all projects / your techs
-    - RESUME - make title link to your resume to be printed? or pic be link?
-    - APP LINK TO GITHUB - make github image with Backend or Frontend pasted over, do in mac photoshop. Put those below the titles of the projects
-    - ACORDIANS - for app info and one for app technologies, look at bootstrap
-    - PLAY THE APP BUTTONS - i want to have the hover effect and they should be centered
+    - HR - figure out why that is not displaying
+    - Responsive - go to columns when size is too small
+    -Make a border around project title so it looks like a button
+    - RESUME - fix resume for diff sizes

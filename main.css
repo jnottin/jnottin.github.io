@@ -102,7 +102,7 @@ text-align: center;
 
 /* PDF */
 .resume-img-pdf {
-    height: 1100px;
+    height: 900px;
     width: 80%;
     margin-left: 10%;
     /* margin: 0 auto;
@@ -216,6 +216,10 @@ text-align: center;
     margin-bottom: 2%; 
 }
 
+.hrs {
+    background-color: white;
+}
+
 
 .hover-text {
     padding: 10px;
@@ -226,7 +230,6 @@ text-align: center;
     text-align: center;
     font-size: 2.3vw; 
     color: white;
-    width: auto;
 }
 .div-proj-title-link {
     text-decoration: none;
@@ -234,7 +237,7 @@ text-align: center;
 
 .div-proect-title:hover {
     text-shadow: 4px 2px 2px #888888;
-    transform: scale(1.5);
+    transform: scale(1.3);
     transition: .4s ease;
 
 }
@@ -261,29 +264,38 @@ body {
     height: 100%;
 }
 
+/* for projects column */
+@media only screen and (max-width: 880px) {
+    .all-project-container {
+        flex-direction: column;
+    }
+    .project-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .descrip-tech {
+        font-size: 2.8vw; 
+    }
+    .div-proect-title {
+        text-align: center;
+        font-size: 4.7vw; 
+        color: white;
+    }
+
+}
+
+
+
 /* TABLETS */
 @media only screen and (max-width: 768px) {
     .navbar {
         display:  none;
     }
+    
     .about-me-grid { 
     grid-template-columns: 40% 40%;
     }
-    .grid1 {
-        /* display: none; */
-        display: grid;
-        grid-template-rows: auto 140px 180px auto;
-        /* grid-template-columns: 400px 400px 400px; */
-        /* grid-template-columns: auto auto auto auto;  */
-        grid-template-columns: 22% 22% 22% 22%; 
-        justify-content: center;
-        justify-items: center;
-        /* align-items: top; */
-        grid-gap: 10px 3%;
-        margin: 10px;
-        margin-top: 100px;
 
-        }
     .resume-img-pdf {
         width: 94%;
         margin-left: 4%;
@@ -319,7 +331,6 @@ body {
         left: -7.5%;
         top: 60px; */
     }
-
     .title {
         font-size: 15vw;
     }
@@ -331,15 +342,9 @@ body {
     .slogan {
         font-size: 5vw;
         }
-    
-
-    .grid1 {
-        display: none;
-
-        }
 
     .resume-img-pdf {
-        display: none;
+        height: 500px;
     }
 } 
 
