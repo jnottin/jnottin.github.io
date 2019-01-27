@@ -1,5 +1,4 @@
 PROBLEMS:
-    - HR - figure out why that is not displaying
-    - Responsive - go to columns when size is too small
-    -Make a border around project title so it looks like a button
+    -CHECK PHONE FOR GITHUB BUTTONS - figure out how to make the things stay in their squares
+    -Take away black borders see if it looks good
     - RESUME - fix resume for diff sizes
